@@ -7,6 +7,6 @@ Gemini API의 함수 호출(Function Calling) 기능을 활용하여 다단계(M
     언어: Python
     라이브러리: google-genai, requests
     API Key (환경 변수 필요):
-        □ GEMINI_API_KEY
-        □ OPENCAGE_API_KEY (좌표 조회용)
-        □ OPENWEATHER_API_KEY (날씨 조회용)
+        GEMINI_API_KEY
+        OPENCAGE_API_KEY (좌표 조회용)
+        OPENWEATHER_API_KEY (날씨 조회용)
