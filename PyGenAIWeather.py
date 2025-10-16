@@ -117,7 +117,8 @@ def get_weather_by_coords(lat: float, lon: float) -> dict:
 async def run_mcp(prompt: str):
     print(f"🙂 사용자 요청: {prompt}")
 
-    if not os.environ.get("GEMINI_API_KEY")or not os.environ.get("OPENCAGE_API_KEY") or not os.environ.get("OPENWEATHER_API_KEY"):
+    missing_keys = [k for k in ["GEMINI_API_KEY", "OPENCAGE_API_KEY", "OPENWEATHER_API_KEY"] if not os.getenv(k)]
+    if missing_keys:
         print("⚠️ 오류: 모든 API Key 환경 변수를 설정해야 합니다.")
         return
     
