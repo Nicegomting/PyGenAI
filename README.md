@@ -2,7 +2,7 @@
 
 Gemini API의 함수 호출(Function Calling) 기능을 활용하여 다단계(Multi-step) API 호출을 수행하는 Python 예제 코드입니다. 사용자의 요청을 처리하기 위해 두 개의 외부 API 함수를 순차적으로 연결하여 실행하는 로직을 보여줍니다.
 
-⚙️ Requirements
+🧰 Requirements
 
     언어: Python
     라이브러리: google-genai, requests
