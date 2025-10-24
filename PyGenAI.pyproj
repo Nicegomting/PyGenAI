@@ -5,7 +5,8 @@
     <ProjectGuid>b5e93574-b84c-4a0f-a5f6-eadadd45ac9d</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>PyGenAIExample.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
